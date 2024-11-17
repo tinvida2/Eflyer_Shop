@@ -1,0 +1,103 @@
+.fashionSectionTitle, .electronicsTitle, .jewelTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.fashionSectionTitle h1, .electronicsTitle h1, .jewelTitle h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(48, 48, 46);
+    margin-bottom: 50px;
+}
+
+.clothesSection, .electronicsSection, .jewelrySection{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    
+}
+
+.cloth1 , .cloth2, .cloth3, .electronic1, .electronic2, .electronic3, .jewel1, .jewel2, .jewel3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.cloth1 h3, .cloth2 h3, .cloth3 h3, .electronic1 h3, .electronic2 h3, .electronic3 h3, .jewel1 h3, .jewel2 h3, .jewel3 h3{
+    color: rgb(48, 48, 46);
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cloth1 p, .cloth2 p, .cloth3 p, .electronic1 p, .electronic2 p, .electronic3 p, .jewel1 p, .jewel2 p, .jewel3 p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(38, 38, 38);
+    margin-bottom: 20px;
+}
+
+.cloth2 p, .cloth3 p{
+    margin-bottom: 20px;
+}
+
+.btnMenu1, .btnMenu2, .btnMenu3, .btnMenu4, .btnMenu5, .btnMenu6, .btnMenu7, .btnMenu8, .btnMenu9{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyNow1, .buyNow2, .buyNow3, .buyNow4, .buyNow5, .buyNow6, .buyNow7, .buyNow8, .buyNow9{
+    color: #f26522;
+    font-weight: 700;
+    transition: color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.buyNow1:hover, .buyNow2:hover, .buyNow3:hover, .buyNow4:hover, .buyNow5:hover, .buyNow6:hover, .buyNow7:hover, .buyNow8:hover, .buyNow9:hover{
+    color: black;
+}
+
+.seeMore1, .seeMore2, .seeMore3, .seeMore4, .seeMore5, .seeMore6, .seeMore7, .seeMore8, .seeMore9{
+    color: rgb(43, 41, 41);
+    font-weight: 500;
+    transition: color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.seeMore1:hover, .seeMore2:hover, .seeMore3:hover, .seeMore4:hover, .seeMore5:hover, .seeMore6:hover, .seeMore7:hover, .seeMore8:hover, .seeMore9:hover{
+    color: #f26522;
+}
+
+.btnMenu2{
+    margin-top: 5px;
+}
+
+.btnMenu3{
+    margin-top: 11.5px;
+}
+
+.arrowSection1, .arrowSection2, .arrowSection3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 400px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+
+.leftArrow1, .rightArrow1, .leftArrow2, .rightArrow2, .leftArrow3, .rightArrow3{
+    font-size: 25px;
+    cursor: pointer;
+    background-color:slategray;
+    padding: 10px 20px;
+    color: whitesmoke;
+    height: 55px;
+    transition: color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.leftArrow1:hover, .rightArrow1:hover, .leftArrow2:hover, .rightArrow2:hover, .leftArrow3:hover, .rightArrow3:hover{
+    background-color: #f26522;
+    transition: 0.2s;
+}

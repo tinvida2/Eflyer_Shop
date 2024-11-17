@@ -1,0 +1,195 @@
+.header1{
+    background-image: url('/images/banner-bg.png');
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+}
+.lst{
+    background-color: rgb(43, 42, 41);
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: fit-content;
+    font-size: 17px;
+    gap: 30px;
+    padding: 18px 230px;
+    clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+.lst li:hover{
+    color: #f26522;
+    transition: color 0.3s ease-in-out;
+}
+
+.logoSection{
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.contentMenu{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: baseline;
+}
+
+.toggle{
+    cursor: pointer;
+    transform: translateY(30%);
+}
+
+.dropdown{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border-color: rgb(37, 37, 37);
+    border-radius: 5px;
+    padding: 7px 13px;
+    font-size: 17px;
+}
+
+.searchSection{
+    display: flex;
+}
+
+.input1{
+    padding: 8px 18px;
+    width: 500px;
+    border: 1px solid #ced4da;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    outline: none;
+}
+
+.searchIcon{
+    padding: 12px 12px;
+    background-color: #f26522;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+
+.userSettings{
+    display: flex;
+    align-items: baseline;
+    gap: 25px;
+}
+
+.language{
+    background-color: white;
+    padding: 8px 22px;
+    border-radius: 5px;
+    width: fit-content;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.ukFlag{
+    width:22px;
+}
+
+
+.language:hover{
+    color: #f26522;
+    transition: color 0.2s ease;
+}
+
+.userInfo ul {
+    display: flex;
+    gap: 15px;
+}
+
+.userInfo ul a{
+    font-size: 19px;
+    color: white;
+    font-weight: 500;
+}
+
+.userInfo ul a:hover{
+    color: #f26522;
+    transition: color 0.2s ease;
+}
+
+.sloganSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(30%);
+    position: relative;
+}
+
+.arrowSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* limits the width of slogan and arrow area */
+}
+
+.arrowLeft, .arrowRight {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 26px;
+    color: white;
+    background-color: rgb(39, 42, 44);
+    border-radius: 50%;
+    padding: 8px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.arrowLeft {
+    left: 0; /* keeps it fixed to the left of slogan */
+}
+
+.arrowRight {
+    right: 0; /* keeps it fixed to the right of slogan */
+}
+
+.slogan {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    text-align: center;
+    max-width: 600px; /* limits text width */
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.purchase {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    transform: translateY(70%);
+    padding: 11px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+
+.purchase:hover {
+    background-color: #f26522;
+}
+
